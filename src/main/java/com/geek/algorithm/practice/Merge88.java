@@ -67,7 +67,7 @@ public class Merge88 {
             } else {
                 cur = nums2[p2--];
             }
-            nums1[tail - 1] = cur;
+            nums1[tail--] = cur;
         }
     }
 
