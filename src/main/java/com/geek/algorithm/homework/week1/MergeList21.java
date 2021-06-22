@@ -43,6 +43,7 @@ public class MergeList21 {
      * @param l1
      * @param l2
      * @return
+     *
      */
     public static ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
         // 新建一个哨兵
