@@ -1,4 +1,4 @@
-package com.geek.algorithm.practice;
+package com.geek.algorithm.homework;
 
 /**
  *

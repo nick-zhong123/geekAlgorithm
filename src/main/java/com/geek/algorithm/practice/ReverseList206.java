@@ -1,5 +1,7 @@
 package com.geek.algorithm.practice;
 
+import com.geek.algorithm.homework.ListNode;
+
 /**
  *
  *
