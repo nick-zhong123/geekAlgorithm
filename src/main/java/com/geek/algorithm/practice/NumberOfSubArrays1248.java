@@ -11,6 +11,7 @@ public class NumberOfSubArrays1248 {
 
     public static int numberOfSubarrays(int[] nums, int k) {
         int n = nums.length;
+        // 该频次数组是单调递增
         int[] cnt = new int[n + 1];
         int odd = 0, ans = 0;
         cnt[0] = 1;
