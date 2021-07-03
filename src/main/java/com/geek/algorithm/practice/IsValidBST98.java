@@ -27,9 +27,9 @@ public class IsValidBST98 {
         if (node == null) {
             return true;
         }
-        if (node.value <= min || node.value >= max) {
+        if (node.val <= min || node.val >= max) {
             return false;
         }
-        return isValidBST(node.left, min, node.value) && isValidBST(node.right, node.value, max);
+        return isValidBST(node.left, min, node.val) && isValidBST(node.right, node.val, max);
     }
 }

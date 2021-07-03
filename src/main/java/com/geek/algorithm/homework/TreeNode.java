@@ -7,17 +7,18 @@ package com.geek.algorithm.homework;
  * @package com.geek.algorithm.homework
  * @description
  *   树节点
+ *
  */
 public class TreeNode {
 
-    public int value;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
     public TreeNode() {}
-    public TreeNode(int value) { this.value = value;}
+    public TreeNode(int value) { this.val = value;}
     public TreeNode(int value, TreeNode left, TreeNode right) {
-        this.value = value;
+        this.val = value;
         this.left = left;
         this.right = right;
     }
