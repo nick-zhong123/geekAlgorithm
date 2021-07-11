@@ -28,21 +28,21 @@ public class LetterCombinationsOfPhoneNumber17 {
         // 1
         nums.add(new ArrayList<>());
         // 2
-        nums.add(Arrays.asList('a','b','c'));
+        nums.add(Arrays.asList("a","b","c"));
         // 3
-        nums.add(Arrays.asList('d','e','f'));
+        nums.add(Arrays.asList("d","e","f"));
         // 4
-        nums.add(Arrays.asList('g','h','i'));
+        nums.add(Arrays.asList("g","h","i"));
         // 5
-        nums.add(Arrays.asList('j','k','l'));
+        nums.add(Arrays.asList("j","k","l"));
         // 6
-        nums.add(Arrays.asList('m','n','o'));
+        nums.add(Arrays.asList("m","n","o"));
         // 7
-        nums.add(Arrays.asList('p','q','r','s'));
+        nums.add(Arrays.asList("p","q","r","s"));
         // 8
-        nums.add(Arrays.asList('t','u','v'));
+        nums.add(Arrays.asList("t","u","v"));
         // 9
-        nums.add(Arrays.asList('x','y','z'));
+        nums.add(Arrays.asList("x","y","z"));
         dfs(digits, 0);
         return ans;
     }
@@ -67,9 +67,9 @@ public class LetterCombinationsOfPhoneNumber17 {
 
     public static void main(String[] args) {
         LetterCombinationsOfPhoneNumber17 exec = new LetterCombinationsOfPhoneNumber17();
-        String digits = '23';
+        String digits = "23";
         List<String> result = exec.letterCombinations(digits);
-        System.out.println('result:' + result.toString());
+        System.out.println("result:" + result.toString());
     }
 
 }
